@@ -1,0 +1,17 @@
+<div style="align-items: center;">
+  <h1>Salvar Banco </h1>
+</div>
+
+<div class="form-group">
+  <label for="materialFabricacao" class="label">Nome:</label>
+  <input type="text" nbInput fullWidth id="materialFabricacao" placeholder="" [(ngModel)]="banco.nome">
+</div><br/>
+<div class="form-group">
+  <label for="produtosPeca" class="label">Codigo:</label>
+  <input type="text" nbInput fullWidth id="produtosPeca" placeholder="" [(ngModel)]="banco.codigo">
+</div><br/>
+
+<button (click)="salvar()" nbButton status="primary">Salvar</button>
+
+
+

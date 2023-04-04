@@ -12,7 +12,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @Entity
-public class Pessoa {
+public class BancoModel {
 
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)  
@@ -21,7 +21,7 @@ public class Pessoa {
 
   private String nome;
 
-  private String cpf;
+  private String codigo;
 
     
 }
